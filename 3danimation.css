@@ -1,0 +1,24 @@
+/* div{ */
+    /* width: 200px;
+    height: 200px;
+    background-color: aqua;
+    fl
+
+#name { */
+/* transform: rotatez(180deg); */
+/* transform: rotatex (10deg); */
+
+
+.name{
+    display: flex;
+    background-color: blueviolet;
+    flex-grow: 1;
+
+
+
+
+    .a,.a2,.a3,.a4 {
+background-color: brown;
+height : 100px;
+width: 100px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  display: flex;
+}
+
+#main div {
+  -ms-flex: 1;  /* IE 10 */  
+  flex: 1;
+}
+        ul{
+            display: flex;
+            justify-content: right;
+            text-indent: 50px;
+            background-color: rgb(81, 247, 48);
+            line-height: 50px;
+            /* text-decoration: none; */
+           
+        }
+        .card{
+            
+            box-shadow: 5px;
+            transition: 0.3s;
+            width: 400px;
+            box-shadow: 10px 10px gray
+
+        }
+        .card:hover{
+            box-shadow: 5px 10px #171817;
+            /* background-color: rgb(62, 240, 39); */
+        }
+        .container{
+            padding: 2px 16px;
+        }
+        .bb{
+            padding: 10px;
+            margin:20px;
+            box-shadow: 5px;
+            transition: 0.3s;
+            width: 300px;
+            box-shadow: 10px 10px rgb(236, 160, 160)
+            
+        }
+        .bb:hover{
+            box-shadow: 5px 10px #e01607;
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <a style="color: rgb(206, 195, 195);" href="#Home">Home</a>
+        <a style="color: rgb(88, 45, 4);" href="#about">about</a>
+        <a style="color: rgb(12, 12, 12);" href="#Services">Services</a>
+        <a style="color: rgb(80, 47, 228);" href="card.html">login</a>
+    </ul>
+    <div id="main">
+    <div class="card">
+        <img src="./carwallpaper (23).jpg" alt="Img"  width="400px" height="100%">
+        <div class="container">
+            <h4 style="color: rgb(8, 8, 8);"><b>Architect & Engineer</b></h4>
+        </div>
+
+    </div>
+    <div class="bb" >
+        <img src="./IMG_20180126_162915.jpg" alt="img" width="310px" height="100%">
+
+    </div>
+</div>
+</body>
+</html>

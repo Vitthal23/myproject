@@ -7,8 +7,8 @@
         {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "Open vitthal.html",
-            "file": "h:\\html\\vitthal.html"
+            "name": "Open 19home.html",
+            "file": "c:\\Users\\vitthal\\Desktop\\HTML\\Nature wallpaper\\Images\\19home.html"
         }
     ]
 }

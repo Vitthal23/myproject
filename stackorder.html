@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            position: relative;
+        }
+
+        .blackbox {
+            position: relative;
+            z-index: 1;
+            border: 2px solid black;
+            height: 60px;
+            width: 70%;
+            left: 50px;
+            top: 50px;
+        }
+
+        .graybox {
+            position: absolute;
+            z-index: 3;
+            background-color: lightgray;
+            height: 60px;
+            width: 70%;
+            left: 50px;
+            top: 50px;
+        }
+
+        .greenbox {
+            position: absolute;
+            z-index: 2;
+            background-color: lightgreen;
+            width: 35px;
+            left: 270px;
+            top: -15px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Index with Element</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, nemo sequi nulla voluptas earum quibusdam repellat provident praesentium cumque placeat dolor quaerat quos ea eaque numquam ratione delectus. Harum, delectus..Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, dolores? Aperiam modi architecto tenetur officia reprehenderit, aut ducimus accusamus minus voluptatum placeat corporis exercitationem dolor dolore asperiores dolorem repudiandae cum!</p>
+    <div class="container">
+        <div class="blackbox"> blackbox</div>
+
+        <div class="graybox"> graybox</div>
+        <div class="greenbox">greenbox</div>
+    </div>
+</body>
+
+</html>
