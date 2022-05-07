@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>JavaScript Arrays</h1>
+    <h2>The push() Method</h2>
+
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+
+    <script>
+        const fruits = ["Banana", "Orange", "Apple", "Mango"];
+        document.getElementById("demo").innerHTML = fruits;
+
+        function fruits1() {
+            fruits.push("Kiwi");
+            document.getElementById("demo1").innerHTML = fruits;
+        }
+        function fruits2()
+        {
+            fruits.pop();
+        document.getElementById("demo2").innerHTML = fruits;
+        }
+
+        
+    </script>
+    <button onclick="fruits1()">push</button><br><br>
+    <button onclick="fruits2()">pop</button>
+</body>
+
+</html>
