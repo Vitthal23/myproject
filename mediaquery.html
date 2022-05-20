@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            border: 1px solid black;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .card {
+            border: 1px solid black;
+            height: 200px;
+            width: 200px;
+        }
+
+        /* for mobile device */
+        @media only screen and (max-width: 768px) {
+            .main {
+                display: flex;
+                flex-direction: column;
+
+            }
+
+        }
+
+        /* for tablet */
+        @media only screen and (max-width: 1024px) and (min-width:768px) {
+            .main {
+                display: flex;
+                flex-direction: 1fr 1fr;
+
+            }
+
+        }
+
+        /* for desktop */
+
+        @media only screen and (max-width:1280px)  {
+            .main {
+                display: flex;
+                flex-direction: 1fr 1fr 1fr;
+
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+
+    </div>
+</body>
+
+</html>

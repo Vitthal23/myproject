@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // const myArray = [{ x: 100 }, { x: 200 }, { x: 300 }];
+        // const myArray = [{ x: 100 }, { x: 200 }, { x: 300 }];
+        // myArray.forEach((Element, index, array) => {
+        //     console.log(Element.x);
+        //     console.log(index);
+        //     console.log(array);
+        // }
+
+        // );
+        // const newArray = myArray.filter(Element => Element.x > 250);
+        // console.log(newArray);
+
+        const fruits = ['graps', 'banana', 'mango', 'apple', 'orange'];
+        function Item(arr, query) {
+            return arr.filter(el => el.toLowerCase().indexOf(query.toLowerCase()) !== -1)
+        }
+        console.log(Item(fruits, 'ap'));
+        console.log(Item(fruits, 'an'));
+
+        // even odd number
+
+
+        //         for (i = 0; i <= 20; i++) {
+        //     if ((i % 2) == 0)
+        //         console.log(i + " is an even Number");
+        //     else
+        //         console.log(i + " is an odd Number");
+
+
+        // }
+
+        // finding lenght **
+
+        // const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+
+        // const result = words.filter(word => word.length > 6);
+
+        // console.log(result);
+
+
+        // Prime number primting***
+
+
+
+        // const array = [-3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+
+        // function isPrime(num) {
+        //   for (let i = 2; num > i; i++) {
+        //     if (num % i == 0) {
+        //       return false;
+        //     }
+        //   }
+        //   return num > 1;
+        // }
+
+        // console.log(array.filter(isPrime));
+
+
+        // find largest & smallest number***
+
+        // numbers = [2, 4, 7, 9, 0, 16, 24]
+
+        // var largest = numbers[0];
+        // var smallest = numbers[0];
+
+        // for (var i = 1; i < numbers.length; i++) {
+
+        //   if (numbers[i] > largest) {
+        //     largest = numbers[i];
+        //   } 
+        //   else if (numbers[i] < smallest) {
+        //     smallest = numbers[i];
+        //   }
+
+        //   console.log(largest);
+        //   console.log(smallest);
+        // }
+
+        // Factorial Number using if else *****
+
+        // function Factorial(n){
+        //     if(n== 0 || n==1){
+        //         return 1;
+
+        //     }else{
+        //         return n * Factorial(n-1);
+        //     }
+        // }
+        // let n = 4;
+        // answer = Factorial(n)
+        // console.log("The factorial of " +n+"is "+answer);
+
+
+        //  factorial using if-else else***
+
+        //     function factorialize(num) {
+        //         if (num < 0)
+        //         return -1;
+        // else if (num == 0)
+        //             return 1;
+        //         else {
+        //             return (num * factorialize(num - 1));
+        //         }
+        //     }
+        //    console.log (factorialize(5));
+
+        // using if while ***
+
+
+
+        function factorialize(num) {
+            var result = num;
+            if (num === 0 || num === 1)
+                return 1;
+            while (num > 1) {
+                num--;
+                result *= num;
+
+            }
+            return result;
+        }
+        console.log(factorialize(6));
+
+
+        // using for loop***** taking more time loading
+
+
+        // function factorialize(num) {
+        //     if (num === 0 || num === 1)
+        //         return 1;
+        //     for (var i = num - 1; i >= i--;) {
+        //         num *= 1;
+        //     }
+        //     return num;
+        // }
+        // console.log(factorialize(4));
+
+
+        // Even Odd ****
+
+
+        // const Number = prompt("Enter a numbetr :");
+        // if(Number %2 == 0){
+        //     console.log("The number is even.");
+        // }
+        // else{
+        //     console.log("The number is odd.");
+        // }
+
+    </script>
+
+
+</body>
+
+</html>

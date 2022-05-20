@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./array.js">
+</head>
+
+<body>
+    <p id="obj">
+ <!-- for loop object -->
+        <script>
+            const obj = {
+                name: "John",
+                email: "girivitthaj23@gmail.com",
+                skill: ["html", "css", "js", "reactjs", "nodejs", "mongodb"],
+                descriptiion: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci consequatur repellendus blanditiis odio itaque nulla veniam sed qui deserunt, molestias officiis fugiat ipsum quis quibusdam reprehenderit, laborum nobis voluptatibus veritatis?"
+            };
+            for (let key in obj) {
+                console.log(obj[key]);
+                document.write(key + ":" + obj[key] + "<br> <br>");
+            }
+            const ram = {
+                name: "ganesh",
+                email: "vitthalgiri23@gmail.com",
+                skill: ["css", "java", "android"]
+
+            };
+            for (let key in ram) {
+                console.log(ram[key]);
+                document.write(key + ":" + ram[key] + "<br>")
+
+
+
+            }
+            for (const key in ram.skill) {
+
+                console.log(ram.skill[key]);
+                document.write(key + ":" + ram.skill + "<br>")
+            }
+            for (const key of ram.skill) {
+                console.log(key + ":" + ram.skill + "<br>")
+            }
+        </script>
+    </p>
+</body>
+
+</html>
